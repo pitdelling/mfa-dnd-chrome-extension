@@ -1,0 +1,87 @@
+.dndh {
+  padding: 0%;
+  margin: 0%;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+[class*="col-"] {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stats-bar {
+  display: flex;
+  position: relative;
+  height: 20px;
+  top: -183px;  /* necessary just for dndbeyond site */
+}
+
+.circle-stat {
+  background-color: yellow;
+  border-radius: 50%;
+  width: 37px;
+  height: 37px;
+  border: 1px solid;
+  opacity: 0;
+}
+
+.circle-stat-ready {
+  transition: 1500ms;
+  transform: rotate(360deg);
+  opacity: 1;
+}
+
+.number-stats {
+  margin-left: 2px;
+  margin-right: 2px;
+  font-weight: bold;
+}

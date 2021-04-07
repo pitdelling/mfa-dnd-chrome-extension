@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "D&DBHelper",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.dndbeyond.com/campaigns/*"
+      ],
+      "css": [
+        "css/style.css"
+      ],
+      "js": [
+        "js/service/dndbeyond-service.js",
+        "js/shared/shared-methods.js",
+        "js/manipulate/manipulate-logo.js",
+        "js/manipulate/manipulate-stat.js",
+        "js/manipulate/manipulate-stats-bar.js",
+        "js/website-interaction.js",
+        "js/main.js"
+      ]
+    }
+  ]
+}
